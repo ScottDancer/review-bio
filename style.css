@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body { 
+  background-color: aqua;
+}
+h1 {
+  /* Put a 15-pixel margin at the bottom of the heading. */
+  margin-bottom: 15px;
+  /* Change the size of your font to 60 pixels high. */
+  font-size: 60px;
+}
