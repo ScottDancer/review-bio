@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
 }
-body { 
+.bodyOneShades
+ { 
   background-color: aqua;
 }
 h1 {
@@ -11,4 +12,13 @@ h1 {
   margin-bottom: 15px;
   /* Change the size of your font to 60 pixels high. */
   font-size: 60px;
+  /* This will change the color of the heading 1 */
+  color:#02bcbf;
+  /* Align the text to the center of it's enclosing element (e.g. div) */
+  text-align: center;
+  /* Underline the text. */
+  text-decoration: underline;
+  /* The background color of the heading  */
+  background-color: #017d80;
+
 }
