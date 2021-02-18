@@ -1,24 +1,86 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-.bodyOneShades
+} */
+/* 
  { 
   background-color: aqua;
-}
-h1 {
+} */
+/* h1 { */
   /* Put a 15-pixel margin at the bottom of the heading. */
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   /* Change the size of your font to 60 pixels high. */
-  font-size: 60px;
+  /* font-size: 60px; */
   /* This will change the color of the heading 1 */
-  color:#02bcbf;
+  /* color:#02bcbf; */
   /* Align the text to the center of it's enclosing element (e.g. div) */
-  text-align: center;
+  /* text-align: center; */
   /* Underline the text. */
-  text-decoration: underline;
+  /* text-decoration: underline; */
   /* The background color of the heading  */
-  background-color: #017d80;
+  /* background-color: #017d80; */
 
+/* } */
+
+/* --------------------------following assingment after begining in class ------------------------ */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #013f40;
+  background-color: aqua;
 }
+
+header {
+  background-color: #02bcbf;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #013f40;
+  font-size: 38px;
+}
+
+h2{
+  font-size: 30px;
+  color: #017d80;
+}
+
+a {
+  color: #017d80;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+ float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+}
+
+
+
